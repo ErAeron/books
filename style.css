@@ -1,0 +1,117 @@
+.animation {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+
+
+.animation1 {
+    height: 25rem;
+    width: 45rem;
+
+    background-image: url(images/R.jfif);
+    background-position: relative;
+    background-size: 100%;
+    border: 2px solid black;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        background-image: url(images/R.jfif);
+    }
+
+    50% {
+        background-image: url(images/OIP.jfif);
+    }
+
+    100% {
+        background-image: url(images/R.jfif);
+    }
+
+}
+.offer{
+    font-weight: bold;
+    font-size:51px;;
+    position: absolute;
+    top:90%;
+}
+.emx {
+    position: absolute;
+    top: 101%;
+    left: 5%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: inline-flex;
+
+}
+.emx1 {
+    position: absolute;
+    top: 150%;
+    left: 5%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: inline-flex;
+
+}
+
+.img1 {
+    margin: 10px;
+    height: 320px;
+    width: 270px;
+    background-color: silver;
+    border-radius: 9px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/* .img1{
+    overflow-x: auto;
+  display: inline-flex;
+overflow-y: hidden;
+} */
+.img1 img {
+
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    margin-left: 12px;
+    background-size: 100%;
+    margin: 10px;
+}
+
+.img1 a {
+    border: 2px solid black;
+    text-align: center;
+    height: 15px;
+    width: 20px;
+    margin: 8px;
+
+    top: 6px;
+    padding: 5px;
+    position: relative;
+    left: 88px;
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 6px;
+}
+
+.img1 a:hover {
+    transition-duration: 0.s;
+    background-color: black;
+    color: white;
+}
+
+.img1:hover {
+    box-shadow: 9px 10px 8px #1d1c1c;
+    z-index: 12;
+    transition-duration: 0.1s;
+    transform: zoom-in;
+
+
+
+}
